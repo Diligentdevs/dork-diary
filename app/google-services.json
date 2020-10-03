@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "294403595110",
+    "firebase_url": "https://dork-diary.firebaseio.com",
+    "project_id": "dork-diary",
+    "storage_bucket": "dork-diary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294403595110:android:a983b2b2886230c19a86a7",
+        "android_client_info": {
+          "package_name": "com.enigmaticdevs.dorkdiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294403595110-pusl59q575k11rp66655r220u8gbubvq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8uhQMIzzLfi_mXaf-vXqwWNwXv8i9-Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294403595110-pusl59q575k11rp66655r220u8gbubvq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

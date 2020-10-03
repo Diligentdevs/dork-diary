@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.enigmaticdevs.dorkdiary">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Account.PrivacyPolicy" android:screenOrientation="portrait" />
+        <activity android:name=".Account.ForgotPassword" android:screenOrientation="portrait" />
+        <activity android:name=".Functionality.EditNote" android:screenOrientation="portrait"/>
+        <activity android:name=".Account.CheckPasscode" android:screenOrientation="portrait" />
+        <activity android:name=".Functionality.NewNote" android:screenOrientation="portrait" />
+        <activity
+            android:name=".Account.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Account.SignUp" android:screenOrientation="portrait"/>
+        <activity android:name=".Account.StartupActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Account.PasscodeActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Account.LoginActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity" android:screenOrientation="portrait"/>
+        <receiver android:name=".NotificationReceiver.NotificationReceiver" >
+        </receiver>
+        <receiver android:name=".NotificationReceiver.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7745746346619481~8884300069" />
+    </application>
+
+</manifest>
